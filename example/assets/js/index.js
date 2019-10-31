@@ -7,3 +7,6 @@ ReactDOM.render(<App/>, document.getElementById('root'))
 
 import SecondApp from './components/sec'
 ReactDOM.render(<SecondApp />, document.getElementById('sec'))
+
+import ContainerBoost from './components/containerboost';
+ReactDOM.render(<ContainerBoost />, document.getElementById('cont-boost'))

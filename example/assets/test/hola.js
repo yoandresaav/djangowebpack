@@ -1,1 +1,1 @@
-alert('Hola dijeeeee')
+console.log('Hola dijeeeee desde /test/hola.js')

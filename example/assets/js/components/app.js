@@ -9,7 +9,7 @@ const App = () => {
     return(
         <React.Fragment>
             <CssBaseline />
-            <div style={{ margin:50, padding: 20, backgroundColor: '#cfe8fc', height: '100vh' }}>
+            <div style={{ margin:50, padding: 20, backgroundColor: '#cfe8fc', height: '400px' }}>
                 <Grid container >
                     <div>
                         <h2>Hola desde reactjs HAHAHA Yoandre con el watch!</h2>

@@ -20,17 +20,23 @@ module.exports = {
   ],
 
   module: {
-    rules: [{
-      test: /\.jsx?$/,
-      exclude: /node-modules/,
-      use: {
-        loader: "babel-loader",
-        options: {
-          presets: ['@babel/preset-react'],
-          compact: false
+    rules: [
+      {
+        test: /\.jsx?$/,
+        exclude: /node-modules/,
+        use: {
+          loader: "babel-loader",
+          options: {
+            presets: ['@babel/preset-react'],
+            compact: false
+          }
         }
+      },
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader']
       }
-    }]
+    ]
   },
 
   resolve: {

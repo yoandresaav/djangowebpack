@@ -1,1 +1,1 @@
-alert('Estoy dentro de test')
+console.log('Estoy dentro de test/index.js')
